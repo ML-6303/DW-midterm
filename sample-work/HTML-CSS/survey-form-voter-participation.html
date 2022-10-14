@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>College Campus Voter Participation Survey</title>
+    <style>
+	  body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 1rem;
+  border-bottom: 3px solid #3b3b4f;
+  max-width:500px;
+  margin: auto;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 200px;
+  max-width: 400px;
+}
+	  </style>
+	  
+  </head>
+
+  <body>
+    <h1 id="title">College Campus Voter Participation Survey</h1>
+    <p id="description">Thank you for taking the time to help us collect valuable data about voter participation on college campuses.</p>
+    
+    <fieldset></fieldset>
+    <fieldset>
+    <form id="survey-form" action='https://register-demo.freecodecamp.org'>
+      
+        <label for="name-label">What is the name of your current college campus? <input id="name" name="college name" type="text" placeholder="Enter your college name" required /></label>
+
+        <br>
+
+        <label for="number-label">What will be your age (years) on Nov. 8, 2022? <input id="number" type="number" name="age" min="13" max="120" placeholder="Enter your age on 11/08/2022" required /></label>
+        
+        <br>
+
+        <label name="registered-question"> Are you currently registered to vote?</label>
+        
+        <label for="yes"><input id="yes" type="radio" name="registered-voter" class="inline" /> Yes</label>
+
+        <label for="no"><input id="no" type="radio" name="registered-voter" class="inline" /> No</label>
+
+        <br>
+
+        <label for="dropdown">What political party do you most closely align with?
+          <select id="dropdown" name="political-party">
+            <option value="">(select one)</option>
+            <option value="1">Anarchist</option>
+            <option value="2">Communist</option>
+            <option value="3">Democrat</option>
+            <option value="4">Democratic Socialist </option>
+            <option value="5">Forward</option>
+            <option value="6">Green</option>
+            <option value="7">Independent/None</option>
+            <option value="8">Libertarian</option>
+            <option value="9">Republican</option>
+            <option value="10">Socialist </option>
+            <option value="11">Other</option>
+          </select>
+        </label>
+
+        <br>
+
+          <label>What elections did you vote in or do you plan to vote in? <br>(Check all that apply)</label>
+
+          <label><input name="voted" value="2012-Pres" type="checkbox" class="inline">2012 Presidential</label>
+          
+          <label><input name="voted" value="2014-mid" type="checkbox" class="inline">2014 Midterm</label>
+
+          <label><input name="voted" value="2016-Pres" type="checkbox" class="inline">2016 Presidential</label>
+          
+          <label><input name="voted" value="2018-mid" type="checkbox" class="inline">2018 Midterm</label>
+
+          <label><input name="voted" value="2020-Pres" type="checkbox" class="inline">2020 Presidential</label>
+          
+          <label><input name="voted" value="2022-mid" type="checkbox" class="inline">2022 Midterm</label>
+
+          <label><input name="voted" value="2024-Pres" type="checkbox" class="inline">2024 Presidential</label>
+    
+      </fieldset>
+      <fieldset>
+        
+        <label for="comments">Any comments or suggestions?
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Enter comments here..."></textarea>
+        </label>
+
+        <br>
+
+        <label for="email-label">If you would like to be contacted about the results of this study, please enter your email: <input id="email" name="email" type="email" placeholder="Email"/></label>
+
+      </fieldset>
+
+      <input type="submit" value="Submit" />
+    </form>
+	  <br>
+	  <br>
+  </body>
+</html>

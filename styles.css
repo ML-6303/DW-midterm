@@ -1,0 +1,280 @@
+nav {
+    text-align: center;
+    color: #DB585A;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    height: auto;
+    width: 100%;
+    margin-top: 0px;
+    padding: 20px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-color: #EEF828;
+    border-top: 0px;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    color: #000000;
+    letter-spacing: 1px;
+    vertical-align: middle;
+}
+nav ul {
+    margin: 0px, 30px;
+    padding: 35px;
+    display: inline;
+    vertical-align: middle;
+	height: 100px;
+	line-height: 90px;
+}
+
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    padding: 0px 20px 0px 20px;
+    vertical-align: middle;
+}
+nav a {
+    color: #F9A88A;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0;
+}
+
+
+header {
+    border: 0px;
+	margin: 0px;
+	padding: 0px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.name-logo {
+    font-size: 48px;
+    color: black;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 20px;
+	float: left;
+}
+body {
+    background-color:
+	float:none;
+    background-color: #A62C2C;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    color: #F9A88A;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0 px;
+    line-height: 118%;
+	text-align: left;
+}
+
+a {
+    color: black;
+}
+a:hover {
+    color: white;
+}
+
+
+h2 {
+    text-align: center;
+    color: #DBC652;
+    font-weight: lighter;
+}
+h3 {
+    color: black;
+    text-transform: uppercase;
+}
+main h2 {
+    text-align: left;
+    margin-bottom: 50px;
+    line-height: 150%;
+}
+
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    line-height: 24px;
+    width: 800px;
+	text-align: left;
+}
+
+
+#bio-photo {
+    float: right;
+    padding: 0;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border: 6px solid #000000;
+}
+#bio h3 {
+    text-transform: none;
+}
+
+
+#services-banner {
+    width: 100%;
+    min-width: 800px;
+}
+#services-banner #centered-section {
+    width: 840px;
+    height: 280px;
+    padding: auto;
+    margin: auto;
+    min-width: 800px;
+}
+#services-banner h2 {
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    line-height: 150%;
+    color: #F0C034;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px;
+}
+.category {
+    width: 200px;
+    min-height: 200px;
+    margin: 30px;
+    border: 6px solid #000000;
+    background-color: #000000;
+    float: left;
+    clear: right;
+    border-radius: 3px;
+}   
+.category h3 {
+    margin: 0;
+    padding: 10px;
+    font-weight: 900;
+    text-align: center;
+    color: #DBC652;
+    text-transform: none;
+}
+.category img  {
+    width: 200px;
+    height: 150px;
+    padding: 0px;
+    margin: 0px;
+}
+.category #img-unavailable {
+    width: 200px;
+    height: 140px;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+}
+.category #img-unavailable p {
+    color: #DBC652;
+    text-align: center;
+}
+.category p {
+	margin: -10px 0px -5px 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+#HTML-samples li a {
+    color: #F9A88A;
+    text-decoration: underline;
+}
+#HTML-samples li a:hover {
+	color: white;
+}
+#contact h2 {
+    color: #DBC652;
+}
+
+
+#contact img {
+    width: 300px;
+    padding: 0px;
+    margin: 30px;
+    border: 6px solid #000000;
+    float: right;
+}
+
+#contact #address {
+    width: 300px;
+    text-align: center;
+}
+#contact #email a {
+    text-decoration: underline;
+}
+#contact #email {
+    width: 300px;
+    text-align: center;
+	float:right;
+	margin: 0px 50px 30px 0px;
+}
+#contact #email a {
+    color: #F9A88A;
+}
+
+/******* CONTACT FORM *******/
+
+#contact-form {
+    float: left;
+}
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+label {
+    margin: 0px 0 20px 20px;
+    color: #F9A88A;
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+	text-align:left;
+}
+
+input, textarea {
+    margin: 10px 0 10px 0;
+    width: 300px;
+    min-height: 2em;
+    background-color: black;
+	color: white;
+	border-style: hidden;
+}
+
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 150px;
+    margin: 0px auto 100px 100px;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #F6885F;
+    border: 1px solid #000000;
+    color: #A62C2C;
+    font-weight: bold
+}
+
+footer  {
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: #000000;
+    height: auto;
+    width: 100%;
+    clear: both;
+    color: #A62C2C;
+}
